@@ -6,15 +6,15 @@
   align-items: center;
   justify-content: space-around;
   border-radius: 5px;
-  box-shadow: 0 0 5px gray;
+  box-shadow: 0 0 5px rgb(51, 132, 255);
   /* transition: ease-out 100ms; */
   transition: transform .2s;
-  background-color: rgb(222, 222, 222);
+  background-color: rgb(241 241 241 / 22%);
   backdrop-filter: blur(10px);
 }
 .card-container:hover {
   transform: scale(1.025);
-  box-shadow: 0 0 15px gray;
+  box-shadow: 0 0 15px rgb(51, 132, 255);
 }
 .left{
   text-align: center;

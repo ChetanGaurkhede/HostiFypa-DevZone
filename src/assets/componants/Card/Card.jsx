@@ -4,8 +4,8 @@ import "./Card.css";
 function Card() {
   return (
     <>
-      {data.map((d) => (
-        <div className="card-container">
+      {data.map((d, index) => (
+        <div className="card-container" key={index}>
           <div className="left">
             <img
               src="\src\assets\Images\computer.png"

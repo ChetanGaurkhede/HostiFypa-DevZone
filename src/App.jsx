@@ -12,12 +12,11 @@ import WrapSlidder from "./assets/componants/WrapSlider/WrapSlidder";
 function App() {
   return (
     <>
-      <div className="container">
         <div className="main">
-          <header>
+          <header className="Header">
             <Navbar />
           </header>
-          <Herosection />
+          <Herosection className="hero" />
           <Trail />
           <Slidding />
           <div className="card-container-1">
@@ -33,7 +32,6 @@ function App() {
             <WrapSlidder />
           </div>
         </div>
-      </div>
       <MessageBox />
     </>
   );

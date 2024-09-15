@@ -4,12 +4,12 @@ import "./CardOperate.css";
 function CardOperate(props) {
   return (
     <>
-      {data.map((d) => (
-        <div className="card-container">
+      {data.map((d, index) => (
+        <div className="card-container" key={index}>
           <div className="left">
             <div className="headding">{d.system} India</div>
             <img
-              src="\src\assets\Images\computer.png"
+              src={d.image}
               alt=""
               className="card-img-1 card-img"
             />
@@ -38,7 +38,7 @@ function CardOperate(props) {
 }
 const data = [
   {
-    image: `src\assets\Images\computer.png`,
+    image: `src\\assets\\Images\\computer.png`,
     system: `Windows`,
     price: `1000`,
     cpu: `2`,
@@ -49,7 +49,7 @@ const data = [
     server: `Windows server 2019/2022 ***`,
   },
   {
-    image: `src\assets\Images\computer.png`,
+    image: `src\\assets\\Images\\computer.png`,
     system: `Windows`,
     price: `4999`,
     cpu: `8`,
@@ -60,7 +60,7 @@ const data = [
     server: `server 2019/2022 ***`,
   },
   {
-    image: `src\assets\Images\computer.png`,
+    image: `src\\assets\\Images\\linusPe.png`,
     system: `Linux`,
     price: `600`,
     cpu: `1`,
@@ -71,7 +71,7 @@ const data = [
     server: `Linux`,
   },
   {
-    image: `src\assets\Images\computer.png`,
+    image: `src\\assets\\Images\\linusPe.png`,
     system: `Linux`,
     price: `4500`,
     cpu: `8`,

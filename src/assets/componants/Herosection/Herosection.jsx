@@ -16,7 +16,7 @@ function Herosection () {
         <button className="btn">Elevate your hosting experience today</button>
       </div>
       <div>
-        <img src="\src\assets\Images\server-img.png" alt="" className="server-img" />
+        <img src="\src\assets\Images\Cloud.svg" alt="" className="server-img" />
       </div>
     </div>
 
