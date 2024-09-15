@@ -1,5 +1,11 @@
+.trad-heading{
+  color: black;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
 .toggel-cont{
-  
+  margin-bottom: 0px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -10,7 +16,6 @@
   font-size: 1.5rem;
   font-weight: 600;
 }
-
 .headding-toggel > :first-child{
   color: #2196F3;
 }
@@ -29,6 +34,9 @@
   font-family: Arial, sans-serif;
   font-size: 16px;
   margin: 20px;
+}
+.cont-t {
+  padding-bottom: 0;
 }
 
 .label {
@@ -83,5 +91,5 @@ input:checked + .slider {
 
 /* Move the circle to the right when checked */
 input:checked + .slider:before {
-  transform: translateX(55px);
+  transform: translateX(40px);
 }

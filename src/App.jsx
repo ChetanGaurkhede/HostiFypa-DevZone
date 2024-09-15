@@ -8,6 +8,7 @@ import Card from "./assets/componants/Card/Card";
 import PlanToggel from "./assets/componants/PlanToggel/PlanToggel";
 import CardOperate from "./assets/componants/CardOperate/CardOperate";
 import WrapSlidder from "./assets/componants/WrapSlider/WrapSlidder";
+import TraddingVPS from "./assets/componants/TraddingVPS/TraddingVPS";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Herosection className="hero" />
           <Trail />
           <Slidding />
+          <TraddingVPS />
           <div className="card-container-1">
             <Card />
           </div>
