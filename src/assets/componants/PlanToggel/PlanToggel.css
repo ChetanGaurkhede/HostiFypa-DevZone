@@ -1,0 +1,86 @@
+.toggel-cont{
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.headding-toggel{
+  margin: 30px 0 15px;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.headding-toggel > :first-child{
+  color: #2196F3;
+}
+.para{
+  max-width: 500px;
+  font-size: 0.75rem;
+  text-align: center;
+  line-height: 20px;
+  padding: 20px;
+}
+.toggle-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 250px;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  margin: 20px;
+}
+
+.label {
+  font-weight: bold;
+}
+
+/* Styling the switch */
+.toggle-switch {
+  position: relative;
+  display: inline-block;
+  width: 100px;
+  height: 40px;
+}
+
+/* Hide the checkbox */
+.toggle-switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider (round background of the toggle button) */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #e0e0e0;
+  border-radius: 30px;
+  transition: 0.4s;
+}
+
+/* The circle inside the slider */
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 30px;
+  width: 30px;
+  left: 5px;
+  bottom: 5px;
+  background-color: white;
+  border-radius: 50%;
+  transition: 0.4s;
+}
+
+/* Toggle on (checked state) */
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+/* Move the circle to the right when checked */
+input:checked + .slider:before {
+  transform: translateX(55px);
+}

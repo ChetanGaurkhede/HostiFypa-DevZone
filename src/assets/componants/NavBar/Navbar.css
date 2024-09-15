@@ -1,0 +1,46 @@
+.nav-bar{
+  height: 10vh;
+  padding: 0 10px;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+
+.logo-img{
+  width: 70px;
+}
+
+.contact {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content:space-evenly;
+  column-gap: 30px;
+}
+
+
+.user-img{
+  width: 35px;
+  transition: ease-out 300ms
+}
+.user-img:hover {
+  position: relative;
+  width: 45px;
+
+}
+
+.mail-img{
+  width: 28px;
+  transition: ease-out 300ms
+}
+
+.call-img{
+  width: 20px;
+  transition: ease-out 300ms
+}
+.call-img:hover{
+  width: 22px;
+}

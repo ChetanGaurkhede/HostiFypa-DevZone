@@ -1,0 +1,50 @@
+.card-list {
+  background: rgb(247, 247, 247);
+  background: radial-gradient(
+    circle,
+    rgba(247, 247, 247, 1) 72%,
+    rgba(176, 212, 255, 1) 100%
+  );
+  padding: 30px;
+}
+.card-item {
+  background-color: rgb(249, 249, 249);
+  box-shadow: 0 0 5px rgb(58, 110, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  width: 250px;
+  height: 500px;
+  margin: 20px;
+  padding: 20px 0px 0px;
+  border-radius: 10px;
+  transition: ease-out 300ms;
+  backdrop-filter: blur(30px);
+}
+.slick-slide > div {
+  margin: 0px 20px;
+}
+.slider-window{
+  width: 1200px;
+}
+.card-item:hover {
+  box-shadow: 0 0 10px rgb(58, 110, 255);
+  transform: scale(1.025);
+}
+.title {
+  color: rgb(58, 110, 255);
+  font-size: 1.1rem;
+  padding-bottom: 10px;
+}
+.card-item > img {
+  width: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgb(2, 2, 152);
+}
+.headding-card {
+  padding: 20px 0px 0px;
+  text-align: center;
+  /* width: 90%; */
+}
