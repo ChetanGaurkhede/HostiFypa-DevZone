@@ -9,6 +9,7 @@ import PlanToggel from "./assets/componants/PlanToggel/PlanToggel";
 import CardOperate from "./assets/componants/CardOperate/CardOperate";
 import WrapSlidder from "./assets/componants/WrapSlider/WrapSlidder";
 import TraddingVPS from "./assets/componants/TraddingVPS/TraddingVPS";
+import ServerInfo from "./assets/componants/ServerInfo/ServerInfo";
 
 function App() {
   return (
@@ -29,6 +30,9 @@ function App() {
           </div>
           <div className="card-container-1">
             <CardOperate />
+          </div>
+          <div>
+            <ServerInfo />
           </div>
           <div className="slider-window">
             <WrapSlidder />

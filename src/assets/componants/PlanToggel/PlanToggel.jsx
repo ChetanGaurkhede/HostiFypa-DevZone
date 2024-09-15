@@ -5,7 +5,7 @@ function PlanToggel() {
   return (
     <>
       <div className="toggel-cont">
-        <div className="head-tog headding-toggel">
+        <div className="headding-toggel">
         Genral Purpose  vps
         </div>
         <div className="headding-toggel">
