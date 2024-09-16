@@ -1,17 +1,4 @@
-@media screen and (max-width: 720px) {
-   .hero {
-    row-gap: 50px;
-    flex-direction: column-reverse;
-    justify-content: start;
-  }
 
-  .server-img {
-    margin-top: 60px;
-  }
-  .description{
-    text-align: center;
-  }
-}
 
 
 .hero {
@@ -60,4 +47,22 @@
 
 .server-img {
   width: 600px;
+}
+@media screen and (max-width: 720px) {
+  .hero {
+   row-gap: 20px;
+   flex-direction: column-reverse;
+   justify-content: start;
+ }
+ 
+ .server-img {
+   width: 300px;
+ }
+
+ .server-img {
+   margin-top: 10px;
+ }
+ .description{
+   text-align: center;
+ }
 }
