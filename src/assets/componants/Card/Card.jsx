@@ -12,7 +12,7 @@ function Card() {
               alt=""
               className="card-img"
             />
-            <div className="headding">Windows {d.system} India</div>
+            <div className="headding c-head">Windows {d.system} India</div>
             <div className="price">
               <span>₹ </span>
               <span>{d.price}</span>

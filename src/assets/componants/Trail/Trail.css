@@ -9,17 +9,21 @@
   margin: 10px 0;
 }
 .small-text{
-  font-size: 1rem;
+  font-size: 16px;
   text-align: center;
 
 }
 .big-text{
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 18px;
   font-weight: 600;
 }
 .btn-trail{
   background-color: #fff;
   color: #5282df;
   border: 1px solid #5282df;
+}
+
+@media screen and (max-width: 720px) {
+  
 }

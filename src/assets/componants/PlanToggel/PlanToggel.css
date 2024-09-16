@@ -4,10 +4,16 @@
   align-items: center;
   justify-content: center;
 }
+.tog-first-heading{
+  font-size: 20px;
+  padding-bottom: 10px;
+}
 .headding-toggel {
-  margin: 5px 0;
-  font-size: 1.5rem;
+  margin: 15px 0;
+  font-size: 1.2rem;
+  padding: 0 20px;
   font-weight: 600;
+  text-align: center;
 }
 
 .headding-toggel > :first-child {
@@ -83,4 +89,7 @@ input:checked + .slider {
 /* Move the circle to the right when checked */
 input:checked + .slider:before {
   transform: translateX(55px);
+}
+@media screen and (max-width: 720px) {
+ 
 }

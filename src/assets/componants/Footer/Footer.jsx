@@ -18,11 +18,33 @@ function Footer() {
               We are Hostifyra 10 years of experience on this field with most
               talanted peoples and leaders.
             </div>
+            <div className="foot-social">
+            <a href="">
+              <div className="social-icon">
+                <img src="\src\assets\Images\facebook.png" alt="" className="social-icon-img"/>
+              </div>
+            </a>
+            <a href="">
+              <div className="social-icon">
+                <img src="\src\assets\Images\twitter.png" alt="" className="social-icon-img"/>
+              </div>
+            </a>
+            <a href="">
+              <div className="social-icon">
+                <img src="\src\assets\Images\pinterest.png" alt="" className="social-icon-img"/>
+              </div>
+            </a>
+            <a href="">
+              <div className="social-icon">
+                <img src="\src\assets\Images\google-.png" alt="" className="social-icon-img"/>
+              </div>
+            </a>
+          </div>
           </div>
           <div className="footer-links foot-section">
             <div className="footer-heading">Quick Links</div>
             <ul className="foot-ul">
-              <li>Sipport</li>
+              <li>Support</li>
               <li>My Account</li>
               <li>Terms of Use</li>
             </ul>
@@ -86,28 +108,6 @@ function Footer() {
         <div className="foot-end">
           <div className="copyright">
             &copy; 2024 Hostifyra all right reserved.
-          </div>
-          <div className="foot-social">
-            <a href="">
-              <div className="social-icon">
-                <img src="\src\assets\Images\facebook.png" alt="" className="social-icon-img"/>
-              </div>
-            </a>
-            <a href="">
-              <div className="social-icon">
-                <img src="\src\assets\Images\twitter.png" alt="" className="social-icon-img"/>
-              </div>
-            </a>
-            <a href="">
-              <div className="social-icon">
-                <img src="\src\assets\Images\pinterest.png" alt="" className="social-icon-img"/>
-              </div>
-            </a>
-            <a href="">
-              <div className="social-icon">
-                <img src="\src\assets\Images\google-.png" alt="" className="social-icon-img"/>
-              </div>
-            </a>
           </div>
         </div>
       </div>

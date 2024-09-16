@@ -5,10 +5,10 @@ function PlanToggel() {
   return (
     <>
       <div className="toggel-cont">
-        <div className="headding-toggel">
+        <div className="tog-first-heading">
         Genral Purpose  vps
         </div>
-        <div className="headding-toggel">
+        <div className="tog-headding headding-toggel">
           <span>Hostifyra </span> Delivers the Best Value for Your
           Hosting Needs.
         </div>

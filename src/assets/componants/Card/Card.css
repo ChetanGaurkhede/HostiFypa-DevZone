@@ -3,12 +3,13 @@
 }
 .card-container {
   border: 1px solid gray;
-  width: 400px;
+  width: 350px;
   margin: auto;
   display: flex;
-  padding: 20px 10px;
+  flex-direction: row;
+  padding: 15px 20px;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   border-radius: 5px;
   box-shadow: 0 0 5px rgb(51, 132, 255);
   /* transition: ease-out 100ms; */
@@ -26,8 +27,11 @@
 .headding{
   font-weight: 600;
 }
+.c-head{
+  font-size: 14px;
+}
 .price > :nth-child(1){
-  font-size: 1rem;
+  font-size: 18px;
   color: gray;
 }
 .price > :nth-child(2){
@@ -38,7 +42,7 @@
 .card-btn{
   font-size: 0.75rem;
   font-weight: 300;
-  padding: 10px 15px;
+  padding: 8px 12px;
 }
 .card-btn:hover{
   font-size: 0.8rem;
@@ -53,5 +57,5 @@
   line-height: 1.5rem;
 }
 .card-img {
-  width: 100px;
+  width: 80px;
 }
