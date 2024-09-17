@@ -1,5 +1,5 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
+import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
 
 // Import Swiper styles
 import "swiper/css";
@@ -11,17 +11,16 @@ export default () => {
   let screenResolution = () => {
     const width = window.screen.width; // Get the screen width
     console.log(width, "hi");
-  
+
     if (width < 420) {
       return 1;
     } else if (width < 800) {
       return 2;
     } else {
       return 3;
-    } 
-    
+    }
   };
-  
+
   console.log(screenResolution(), "hi");
   return (
     <Swiper

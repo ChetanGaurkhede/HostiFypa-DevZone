@@ -20,6 +20,7 @@ function Footer() {
             </div>
             <div className="foot-social">
               <a href="">
+
                 {/* <img
                     src="\src\assets\Images\facebook.png"
                     alt=""
