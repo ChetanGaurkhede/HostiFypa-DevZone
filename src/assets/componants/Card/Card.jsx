@@ -61,5 +61,6 @@ const data = [
     cpu: `4`,
     ram: `8`,
   },
+  
 ];
 export default Card;
