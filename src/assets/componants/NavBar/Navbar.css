@@ -1,4 +1,4 @@
-.nav-bar{
+.nav-bar {
   height: 10vh;
   padding: 0 10px;
   max-width: 1200px;
@@ -7,48 +7,95 @@
   align-items: center;
   justify-content: space-between;
   padding-top: 10px;
+
 }
 
-@media screen and (max-width: 720px) {
-  
-  .nav-bar{
-    height: 5vh;
-   
-  }
- }
 
-.logo-img{
-  width: 70px;
+.logo-img {
+  width: auto;
+  height: 40px;
 }
 
 .contact {
   height: 100%;
   display: flex;
   align-items: center;
-  justify-content:space-evenly;
+  justify-content: space-evenly;
   column-gap: 30px;
 }
 
 
-.user-img{
-  width: 35px;
+.user-img {
+  width: auto;
+  height: 2rem;
   transition: ease-out 300ms
 }
+
 .user-img:hover {
   position: relative;
   width: 45px;
 
 }
 
-.mail-img{
+.mail-img {
   width: 28px;
   transition: ease-out 300ms
 }
 
-.call-img{
-  width: 20px;
-  transition: ease-out 300ms
+.call,
+.mail {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
-.call-img:hover{
+
+.call-img {
+  width: 28px;
+  transition: ease-out 300ms;
+  cursor: pointer;
+}
+
+.call-img:hover {
   width: 22px;
+}
+
+.call-text {
+  font-size: 12px;
+  font-weight: 200;
+  color: #fff;
+}
+
+.mail-text {
+  font-size: 12px;
+  font-weight: 200;
+  color: #fff;
+}
+
+
+
+@media screen and (max-width: 720px) {
+
+  .nav-bar {
+    height: 5vh;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+
+  }
+
+  .contact {
+    display: none;
+  }
+
+  .user-img {
+    display: none;
+  }
+
+  .logo-img {
+    height: 30px;
+
+  }
 }
