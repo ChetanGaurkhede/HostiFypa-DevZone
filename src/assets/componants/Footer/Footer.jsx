@@ -19,45 +19,61 @@ function Footer() {
               talanted peoples and leaders.
             </div>
             <div className="foot-social">
-            <a href="">
-              <div className="social-icon">
-                <img src="\src\assets\Images\facebook.png" alt="" className="social-icon-img"/>
-              </div>
-            </a>
-            <a href="">
-              <div className="social-icon">
-                <img src="\src\assets\Images\twitter.png" alt="" className="social-icon-img"/>
-              </div>
-            </a>
-            <a href="">
-              <div className="social-icon">
-                <img src="\src\assets\Images\pinterest.png" alt="" className="social-icon-img"/>
-              </div>
-            </a>
-            <a href="">
-              <div className="social-icon">
-                <img src="\src\assets\Images\google-.png" alt="" className="social-icon-img"/>
-              </div>
-            </a>
+              <a href="">
+                {/* <img
+                    src="\src\assets\Images\facebook.png"
+                    alt=""
+                    className="social-icon-img"
+                  /> */}
+
+                <i class="fa-brands fa-facebook foot-img"></i>
+              </a>
+              <a href="">
+                {/* <img
+                    src="\src\assets\Images\twitter.png"
+                    alt=""
+                    className="social-icon-img"
+                  /> */}
+
+                <i class="fa-brands fa-twitter foot-img"></i>
+              </a>
+              <a href="">
+                {/* <img
+                    src="\src\assets\Images\pinterest.png"
+                    alt=""
+                    className="social-icon-img"
+                  /> */}
+
+                <i class="fa-brands fa-pinterest foot-img"></i>
+              </a>
+              <a href="">
+                {/* <img
+                    src="\src\assets\Images\google-.png"
+                    alt=""
+                    className="social-icon-img"
+                  /> */}
+                <i class="fa-brands fa-google-plus foot-img"></i>
+              </a>
+            </div>
           </div>
-          </div>
-          <div className="footer-links foot-section">
-            <div className="footer-heading">Quick Links</div>
-            <ul className="foot-ul">
-              <li>Support</li>
-              <li>My Account</li>
-              <li>Terms of Use</li>
-            </ul>
-          </div>
-          <div className="footer-service foot-section">
-            <div className="footer-heading">Services</div>
-            <ul className="foot-ul">
-              <li>Web Hosting</li>
-              <li>VPS Hosting</li>
-              <li>Dedicated Server</li>
-            </ul>
-          </div>
-          <div className="footer-contect foot-section">
+          <div className="quick_links">
+            <div className="footer-links foot-section">
+              <div className="footer-heading">Quick Links</div>
+              <ul className="foot-ul">
+                <li>Support</li>
+                <li>My Account</li>
+                <li>Terms of Use</li>
+              </ul>
+            </div>
+            <div className="footer-service foot-section">
+              <div className="footer-heading">Services</div>
+              <ul className="foot-ul">
+                <li>Web Hosting</li>
+                <li>VPS Hosting</li>
+                <li>Dedicated Server</li>
+              </ul>
+            </div>
+            {/* <div className="footer-contect foot-section">
             <div className="footer-heading">Contacts</div>
             <div className="contact-li">
               <div>
@@ -88,6 +104,34 @@ function Footer() {
                 />{" "}
               </div>
               <div className="contact-inf">Jorhat - Assam, India.</div>
+            </div>
+          </div> */}
+            <div className="footer-contect foot-section">
+              <div className="footer-heading">Contacts</div>
+              <ul className="foot-ul">
+                <li className="contact-li">
+                  {/* <img
+                  src="\src\assets\Images\telephone (1).png"
+                  alt=""
+                  className="foot-img"
+                /> */}
+                  <i class="fa fa-phone-alt foot-img"></i>
+                  <span>+91-3767968838</span>
+                </li>
+                <li>
+                  {/* <img
+                  src="\src\assets\Images\mail.png"
+                  alt=""
+                  className="foot-img"
+                /> */}
+                  <i
+                    className="fa fa-envelope foot-img"
+                    aria-hidden="true"
+                    style={{ color: "" }}
+                  ></i>
+                  <span>sales@hostifyra.com</span>
+                </li>
+              </ul>
             </div>
           </div>
         </div>

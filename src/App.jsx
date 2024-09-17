@@ -32,17 +32,17 @@ function App() {
         <div>
           <TraddingVPS />
         </div>
-        <div className="card-container-1">
+        {/* <div className="card-container-1">
           <Card className="Swipe-1" />
-        </div>
+        </div> */}
         {/* <Swiper className="Swipe-2"/> */}
 
         <div className="toggel">
           <PlanToggel />
         </div>
-        <div className="card-container-1">
+        {/* <div className="card-container-1">
           <CardOperate />
-        </div>
+        </div> */}
         <div>
           <ServerInfo />
         </div>
@@ -51,10 +51,10 @@ function App() {
         </div>
         <MessageBox />
       </div>
-      
-        <footer>
-          <Footer />
-        </footer>
+
+      <footer>
+        <Footer />
+      </footer>
     </>
   );
 }
